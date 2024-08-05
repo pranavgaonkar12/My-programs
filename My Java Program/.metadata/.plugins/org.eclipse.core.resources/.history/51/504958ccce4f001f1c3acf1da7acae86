@@ -1,0 +1,10 @@
+package Java_Basic_Concepts;
+
+public class Number_guessing_Game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

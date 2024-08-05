@@ -1,0 +1,20 @@
+package Java_Basic_Concepts;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayVsArrayList {
+
+		public static void main(String[] args) {
+			String[] friendsArray=new String[4];
+			String[] friendsArray2= {"John","Chris","Eric","Luke"};
+			
+			ArrayList<String> friendsArrayList=new ArrayList<>();
+			//array list do not have a fixed size
+			//dynamically contrasts the size
+			ArrayList<String> friendsArrayList2=new ArrayList<>(Arrays.asList("John","Chris","Luke"));
+			//it is mutable
+			//arrays cannot hold primitive or objects
+			
+		}
+}
